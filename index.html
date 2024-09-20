@@ -5,11 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./src/styles/reset.css" />
   <link rel="stylesheet" href="./src/styles/global.css" />
-  <title>SVEN SPORTS</title>
+  <meta name="description" content="Confira os resultados e detalhes dos jogos da última Copa SEVN. Acompanhe o desempenho dos times e atualizações em tempo real." />
+  <meta name="keywords" content="futebol, copa sevn, resultados de jogos, esportes, futebol ao vivo, placar, times, campeonatos" />
+  <meta name="author" content="SEVN Sports" />
+  <title>SEVN Esportes - Resultados da Copa SEVN</title>
 </head>
 <body>
-  <custom-header main-title="SEVN ESPORTES"></custom-header>
-  <rounds-view api-url="https://sevn-pleno-esportes.deno.dev"></rounds-view>
+  <header>
+    <custom-header main-title="SEVN ESPORTES"></custom-header>
+  </header>
+  <main>
+    <rounds-view api-url="https://sevn-pleno-esportes.deno.dev"></rounds-view>
+  </main>
+  
   <script type="module" src="./src/components/main.js"></script>
 </body>
 </html>
