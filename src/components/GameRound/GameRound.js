@@ -39,8 +39,6 @@ export class GameRound extends HTMLElement {
       }
       this.rounds = await response.json();
 
-      console.log(this.rounds);
-      
       this.render();
     } catch (error) {
       console.error('Failed to fetch games:', error);
