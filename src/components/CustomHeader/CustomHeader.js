@@ -30,7 +30,6 @@ export class CustomHeader extends HTMLElement {
         .main-title {
             margin: 0;
             font-size: 22px;
-            line-height: 26.63;
         }
             
         .container > img {

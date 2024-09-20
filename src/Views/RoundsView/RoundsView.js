@@ -25,7 +25,7 @@ export class RoundsView extends HTMLElement {
           }
           
           .container > h1 {
-            margin-top: 10%;
+            margin-top: 8%;
             margin-bottom: 40px;
           }
             
